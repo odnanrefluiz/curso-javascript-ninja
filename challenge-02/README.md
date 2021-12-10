@@ -34,9 +34,7 @@ myfunction()
 
 // Qual o retorno da função? (Use comentários de bloco).
 
-/*
-' O valor da variavel agora é 10 '
-*/
+/* ' O valor da variavel agora é 10 ' */
 
 /*
 Crie uma função com as seguintes características:
