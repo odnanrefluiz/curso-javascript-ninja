@@ -202,7 +202,7 @@ correta, de acordo com os dados inseridos no objeto.
 */
 
 pessoa.apresentação = function() {
- return ' '+ pessoa.nomeCompleto() +', tenho '+ pessoa.idade +' anos, '+ pessoa.mostrarAltura() +', '+ pessoa.mostrarPeso() +' e, só hoje, eu já caminhei '+ pessoa.caminhouQuantosMetros +' metros! ';
+ return 'Olá, eu sou o '+ pessoa.nomeCompleto() +', tenho '+ pessoa.idade +' anos, '+ pessoa.mostrarAltura() +', '+ pessoa.mostrarPeso() +' e, só hoje, eu já caminhei '+ pessoa.caminhouQuantosMetros +' metros! ';
  continua....
 
 // Agora, apresente-se ;)
