@@ -202,9 +202,22 @@ correta, de acordo com os dados inseridos no objeto.
 */
 
 pessoa.apresentação = function() {
- return 'Olá, eu sou o '+ pessoa.nomeCompleto() +', tenho '+ pessoa.idade +' anos, '+ pessoa.mostrarAltura() +', '+ pessoa.mostrarPeso() +' e, só hoje, eu já caminhei '+ pessoa.caminhouQuantosMetros +' metros! ';
- continua....
+var sexo = 'o';
+var idadeAnos = 'anos';
+var metrosCaminhados = 'metros';
+if( pessoa.sexo === 'feminino' ) {
+sexo = 'a';
+}
+if( pessoa.idade === 1 ) {
+idadeAnos = 'ano';
+}
+if( pessoa.caminhouQuantosMetros === 1 ) {
+metrosCaminhados = 'metro';
+}
+return 'Olá, eu sou '+ sexo +' '+ pessoa.nomeCompleto() +', tenho '+ pessoa.idade +' '+ idadeAnos +', '+ pessoa.mostrarAltura() +', '+ pessoa.mostrarPeso() +' e, só hoje, eu já caminhei '+ pessoa.caminhouQuantosMetros +' '+ metrosCaminhados +'! ';
+};
+
 
 // Agora, apresente-se ;)
-?
+pessoa.apresentação()  // 'Olá, eu sou o Fernando Luiz, tenho 31 anos, Minha altura é 1.82m, Eu peso 82 Kg e, só hoje, eu já caminhei 500 metros! '
 ```
