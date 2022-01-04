@@ -100,8 +100,8 @@ usando a frase:
 "O livro [NOME_DO_LIVRO] tem [X] páginas!"
 */
 
-'O livro Livro da alma tem ' + book('Livro da alma').quantidadePaginas + ' páginas!'
-//'O livro Livro da alma tem 300 páginas!'
+'O Livro da alma tem ' + book('Livro da alma').quantidadePaginas + ' páginas!'
+//'O Livro da alma tem 300 páginas!'
 
 var bookName = 'Livro da alma';
 
