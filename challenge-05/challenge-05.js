@@ -91,7 +91,8 @@ function book( bookName ) {
 Usando a função criada acima, imprima o objeto com todos os livros.
 */
 
-book(); 
+book();
+{Livro da vida: {…}, Livro da alma: {…}, Livro do coração: {…}}
 
 /*
 Ainda com a função acima, imprima a quantidade de páginas de um livro qualquer,
