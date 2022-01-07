@@ -10,7 +10,8 @@ A função deverá retornar o array atualizado.
 */
 
 function addItem(item) {
-    return arr.push(item);
+   arr.push(item);
+   return arr;
 } 
 
 /*
@@ -50,7 +51,7 @@ console.log( 'Números pares entre 10 e 20:' );
 
 var pairNumber = 10;
 
-while(pairNumber <=20) {
+while(pairNumber <= 20) {
     pairNumber % 2 === 0 ? console.log(pairNumber) : '';
     pairNumber++;
 }
@@ -62,9 +63,9 @@ console.log( 'Números ímpares entre 10 e 20:' );
 
 var pairNumber = 10;
 
-while(pairNumber <=20) {
-    (pairNumber++) % 2 === 0 ? console.log(pairNumber) : '';
-    
+while(pairNumber <= 20) {
+    pairNumber % 2 !== 0 ? console.log(pairNumber) : '';
+    pairNumber++;
 }
 
 /*
